@@ -1,0 +1,168 @@
+html,
+body {
+  height: 100%;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #6c6f73;
+}
+
+.navbar-brand h3 {
+  border: solid 1px #FFC107;
+  padding: 0.1rem 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item a:link{
+  /*    font-weight: bold;*/
+}
+
+
+h1,h2,h3,h4,h5 {
+  color: #333;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+#feature-one, #feature-two img {
+  margin-bottom: 5rem;
+}
+
+img{
+  max-width: 100%;
+}
+
+.blockquote {
+  font-size: 1.6rem;
+  color: #333;
+  border: none;
+  padding: 0;
+}
+
+.blockquote-footer {
+  margin: 1rem 0 0;
+}
+
+#stage {
+  background: url('../img/stage.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#stage-caption {
+  font-size: 1.4rem;
+  font-weight: 200;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(0,0,0, 0.5);
+  padding: 5px;
+}
+
+#stage-caption h1{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.feature-content {
+  padding: 6rem 0;
+  overflow: hidden;
+}
+
+.feature-content img{
+  margin-bottom: -8rem;
+}
+
+.feature-dark{
+  background: #262f36;
+  color: white;
+}
+
+.feature-dark h2{
+  color: white;
+}
+
+.feature-alt{
+  background: #f0f0f0;
+}
+
+#feature-four .feature-content {
+  padding: 0;
+}
+
+#feature-four img{
+
+}
+
+#feature-five img{
+  margin-top: 2rem;
+}
+
+#main-footer {
+  background: #262f36;
+  color: white;
+  padding: 6rem 0;
+  font-size: 0.8rem;
+}
+
+#main-footer h6{
+  color: #718fa9;
+}
+
+#main-footer a {
+  color: #6c6f73;
+}
+
+
+/*=========TRAINING PAGE==============*/
+#courses, #projects{
+  margin: 5rem auto;
+  padding: 5rem auto;
+}
+
+#courses .card-deck{
+  margin-bottom: 1rem;
+}
+
+
+
+/* ========Media Queries ========*/
+@media screen and (min-width : 991px ){
+  .feature-content {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width : 450px ){
+  .feature-content{
+    margin: 2rem 0 0 0 ;
+    padding: 1rem 0.2rem;
+  }
+
+  #feature-one .feature-content img{
+    margin-bottom: 2rem;
+  }
+
+  #feature-three .feature-content {
+    margin-bottom: 2rem 0 0 0;
+  }
+
+  #feature-three img {
+    margin-bottom: 2rem;
+  }
+}
