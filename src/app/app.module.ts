@@ -8,6 +8,12 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TrainingComponent } from './training/training.component';
+import { FullStackComponent } from './training/full-stack/full-stack.component';
+import { OfficeComponent } from './training/office/office.component';
+import { WordpressComponent } from './training/wordpress/wordpress.component';
+import { HtmlCssComponent } from './training/html-css/html-css.component';
+import { JavascriptComponent } from './training/javascript/javascript.component';
+import { BootstrapComponent } from './training/bootstrap/bootstrap.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { TrainingComponent } from './training/training.component';
     HeaderComponent,
     FooterComponent,
     ProjectsComponent,
-    TrainingComponent
+    TrainingComponent,
+    FullStackComponent,
+    OfficeComponent,
+    WordpressComponent,
+    HtmlCssComponent,
+    JavascriptComponent,
+    BootstrapComponent
   ],
   imports: [
     BrowserModule,

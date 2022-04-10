@@ -17,7 +17,8 @@ body{
 }
 
 .navbar-nav .nav-item a:link{
-  /*    font-weight: bold;*/
+  /*font-weight: bold;*/
+  color: #275B89;
 }
 
 
@@ -129,13 +130,40 @@ img{
 
 
 /*=========TRAINING PAGE==============*/
-#courses, #projects{
-  margin: 5rem auto;
-  padding: 5rem auto;
+#courses, #projects {
+  margin: 3rem auto;
+  padding: 2rem 1rem;
 }
 
 #courses .card-deck{
   margin-bottom: 1rem;
+}
+
+#course-page {
+  margin: 8rem 0;
+}
+
+#office ul {
+  font-size: 1.1em;
+}
+
+#course-page .topic {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#office ol {
+  margin: 0;
+}
+
+#course-page .bold {
+  font-weight: bold;
+}
+
+#course-page .card {
+  padding: 10px;
 }
 
 
