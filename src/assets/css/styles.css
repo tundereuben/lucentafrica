@@ -18,7 +18,7 @@ body{
 
 .navbar-nav .nav-item a:link{
   /*font-weight: bold;*/
-  color: #275B89;
+  /*color: #275B89;*/
 }
 
 
@@ -140,7 +140,7 @@ img{
 }
 
 #course-page {
-  margin: 8rem 0;
+  margin: 6rem 0;
 }
 
 #office ul {
@@ -187,7 +187,7 @@ img{
   }
 
   #feature-three .feature-content {
-    margin-bottom: 2rem 0 0 0;
+    margin-bottom: 2rem;
   }
 
   #feature-three img {
