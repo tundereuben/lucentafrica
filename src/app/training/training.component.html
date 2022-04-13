@@ -1,7 +1,7 @@
 <section id="courses">
   <div class="container">
     <hr>
-    <h3 class="text-center text-muted">AVAILABLE COURSES</h3>
+    <h3 class="text-center text-primary">AVAILABLE COURSES</h3>
     <hr>
 
     <div class="row mt-2">
@@ -11,7 +11,7 @@
           <div class="card-body">
             <h5 class="card-title ">{{ course.title }}</h5>
             <p class="card-text">
-              <span *ngFor="let content of course.content">{{ content }}, </span>
+              <span>{{ course.description }} </span>
             </p>
             <button (click)="proceedToCourse(course.courseUrl)" type="button" class="btn btn-secondary">Learn more</button>
           </div>

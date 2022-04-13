@@ -21,7 +21,6 @@ body{
   /*color: #275B89;*/
 }
 
-
 h1,h2,h3,h4,h5 {
   color: #333;
 }
@@ -80,7 +79,7 @@ img{
 
 
 .feature-content {
-  padding: 6rem 0;
+  padding: 3rem 0;
   overflow: hidden;
 }
 
@@ -116,7 +115,7 @@ img{
 #main-footer {
   background: #262f36;
   color: white;
-  padding: 6rem 0;
+  padding: 3rem 0;
   font-size: 0.8rem;
 }
 
@@ -166,7 +165,10 @@ img{
   padding: 10px;
 }
 
-
+/* #quick-info {
+  position: fixed;
+  right: 30px;
+} */
 
 /* ========Media Queries ========*/
 @media screen and (min-width : 991px ){
@@ -175,6 +177,13 @@ img{
     align-items: center;
   }
 }
+
+/* @media screen and (min-width : 576px ) {
+  #quick-info {
+    position:relative;
+    right:unset;
+  }
+} */
 
 @media screen and (max-width : 450px ){
   .feature-content{
