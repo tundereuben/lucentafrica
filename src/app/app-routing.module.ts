@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'projects', component: ProjectsComponent},
   { path: 'training', component: TrainingComponent},
-  { path: 'full-stack', component: TrainingComponent},
+  { path: 'full-stack', component: FullStackComponent},
   { path: 'html-css', component: HtmlCssComponent},
   { path: 'javascript', component: JavascriptComponent},
   { path: 'bootstrap', component: BootstrapComponent},
